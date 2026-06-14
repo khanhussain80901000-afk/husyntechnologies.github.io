@@ -10,7 +10,7 @@ function Footer() {
     <div class="brand-logo">
       <img
         class=""
-        src="./images/BrandLogo-light (1).svg"
+        src="./images/mylogo.png"
         alt="beandLogo"
         type="images/svg"
       />
