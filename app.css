@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* Brand Logo  */
+.brand-logo {
+  max-width: 140px;
+}
+.team-post {
+  cursor: pointer;
+}
+.team-post:hover .team-detail {
+  transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+}
+.team-detail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 70%;
+  background: #161616da;
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transition: transform ease-in-out 500ms;
+  -webkit-transition: transform ease-in-out 500ms;
+  -moz-transition: transform ease-in-out 500ms;
+  -ms-transition: transform ease-in-out 500ms;
+  -o-transition: transform ease-in-out 500ms;
+}
+
+/* background  */
+.dark-bg,
+.dark-bg a {
+  color: white;
+}
+.light-bg h1,
+.light-bg h2,
+.light-bg h3,
+.light-bg h4,
+.light-bg h5,
+.light-bg h6 {
+  color: #0d1317;
+}
+.light-bg p,
+.light-bg li {
+  color: #5b5b5b;
+}
+.light-bg span {
+  color: rgba(57, 65, 73, 0.5);
+}
+.light-bg {
+  color: #394149;
+}
+.light-bg a {
+  color: #f58a07;
+}
+/* background Colors */
+.bg-brand-primay {
+  background: #f58a07 !important;
+  color: white !important;
+}
+.bg-brand-primayfaint {
+  color: #f58a07 !important;
+  background: rgba(245, 138, 7, 0.1) !important;
+}
+.bg-bluefaint {
+  background-color: #edf7ff !important;
+}
+.bg-blue-200 {
+  background: rgba(210, 218, 237, 0.17) !important;
+}
+.bg-bluelight {
+  background-color: #dceaf5;
+}
+.bg-blueDark {
+  background: #063255;
+}
+/* btn, a */
+a.bg-brand-primayfaint:hover {
+  color: white !important;
+  background-color: #f58a07 !important;
+}
+button.bg-brand-primay:hover,
+a.bg-brand-primay:hover {
+  background: #f89d2d !important;
+}
+a.cl-blue-900:hover {
+  color: #325771 !important;
+}
+/* font weight  */
+.fw-smbold {
+  font-weight: 600 !important;
+}
+
+/* border */
+.b-6 {
+  border-radius: 16px !important;
+  -webkit-border-radius: 16px !important;
+  -moz-border-radius: 16px !important;
+  -ms-border-radius: 16px !important;
+  -o-border-radius: 16px !important;
+}
+/* color  */
+.cl-white {
+  color: white !important;
+}
+.cl-blue-900 {
+  color: #111827 !important;
+}
+.cl-primary {
+  color: #2563EB !important;
+}
+.cl-blue-700 {
+  color: #2563EB;
+}
+.icon {
+  color: #2563EB;
+  font-size: 2rem;
+}
+.img-bar {
+  position: absolute;
+  left: 2;
+  top: 0;
+  bottom: 0;
+  background: #f58a07;
+  mix-blend-mode: multiply;
+  width: 20%;
+  z-index: 2;
+  border-radius: 16px 0px 0px 16px;
+  -webkit-border-radius: 16px 0px 0px 16px;
+  -moz-border-radius: 16px 0px 0px 16px;
+  -ms-border-radius: 16px 0px 0px 16px;
+  -o-border-radius: 16px 0px 0px 16px;
+}
+.img-fit-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* max-height: 560px; */
+}
+
+.p-tr {
+  right: -3.6%;
+  top: -5.6%;
+}
+.p-ru {
+  right: -3.6%;
+  top: 10%;
+}
+.p-rc {
+  right: -6.5%;
+  top: 50%;
+}
+.p-br {
+  right: -0.8%;
+  bottom: -4.6%;
+}
+.p-lu {
+  left: -6.5%;
+  top: 10%;
+}
+.p-lc {
+  left: -6.5%;
+  top: 50%;
+}
+.p-ld {
+  left: -6.5%;
+  bottom: 10%;
+}
+.overlay-img--circle {
+  width: 5rem;
+}
+.overlay-img--ribbon {
+  right: -1.6%;
+  top: -2.6%;
+}
+.overlay-img--cubeLg {
+  width: 23%;
+  height: 23%;
+  background: #f58a07;
+  mix-blend-mode: multiply;
+  right: -0.1%;
+  bottom: -0.6%;
+}
+.overlay-img--cubeSm {
+  width: 15%;
+  height: 15%;
+  background: #f58a07;
+  mix-blend-mode: multiply;
+}
+.fs-7 {
+  font-size: 14px !important;
+}
+@media screen and (max-width: 768px) {
+  .overlay-img {
+    width: 16vw;
+    right: -1%;
+    top: -0.9%;
+  }
+  .overlay-img--circle {
+    width: 16vw;
+  }
+  .overlay-img--ribbon {
+    width: 16vw;
+    right: -2%;
+    top: -1.2%;
+  }
+  .p-br,
+  .p-tr {
+    right: -2.6%;
+  }
+  .tab {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  .p-br,
+  .p-tr {
+    right: -0.6%;
+  }
+}
+button.bg-white {
+  background-color: white;
+  color: #f58a07;
+}
+.person-info span {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none !important;
+}
+form label {
+  color: #9c9c9c;
+}
