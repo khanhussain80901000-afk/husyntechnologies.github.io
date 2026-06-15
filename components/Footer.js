@@ -36,7 +36,7 @@ function Footer() {
       <div class="fw-6">Connect</div>
       <div class="row gy-2 mt-2">
         <div><a href="mailto:info@husyntechnologies.com">info@husyntechnologies.com</a></div>
-        <div><a href="https://wa.me/923001234567" target="_blank">WhatsApp</a></div>
+        <div><a href="https://wa.me/message/XPS7L7DNNXJAI1" target="_blank">WhatsApp</a></div>
       </div>
     </div>
     
