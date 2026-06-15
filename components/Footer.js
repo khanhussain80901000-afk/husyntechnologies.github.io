@@ -8,16 +8,11 @@ function Footer() {
 <div class="col-12 col-sm-10 col-md-5 col-lg-5">
   <a href="#">
     <div class="brand-logo">
-      <img
-        class=""
-        src="./images/mylogo.png"
-        alt="beandLogo"
-        type="images/svg"
-      />
+      
     </div>
   </a>
   <div class="brand-tagline h2 my-3 w-75">
-    Bespoke software solutions
+    Husyn Technologies Limited
   </div>
   <div class="brand-socials my-3 mt-4">
     <a href="#" class="mx-2"> <i class="bi bi-facebook"></i></a>
