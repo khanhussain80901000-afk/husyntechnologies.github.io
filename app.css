@@ -241,3 +241,28 @@ a {
 form label {
   color: #9c9c9c;
 }
+
+/* Portfolio specific tweaks for symmetry and theme alignment */
+.portfolio-img-wrapper {
+  height: 200px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  overflow: hidden;
+}
+.portfolio-img {
+  height: 160px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+  display: block;
+}
+.portfolio-badge {
+  font-size: 0.8rem;
+  border-radius: 20px;
+  padding: 4px 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .portfolio-img-wrapper { height: 150px; }
+  .portfolio-img { height: 110px; max-width: 140px; }
+}
