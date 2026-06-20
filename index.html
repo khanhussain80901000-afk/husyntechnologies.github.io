@@ -288,6 +288,28 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <div class="chat-widget" id="chatWidget">
+      <button class="chat-widget-toggle" id="chatWidgetToggle" aria-label="Open chat">
+        <span class="chat-widget-icon">💬</span>
+        <span class="chat-widget-label">Chat</span>
+      </button>
+      <div class="chat-widget-panel" id="chatWidgetPanel" aria-hidden="true">
+        <div class="chat-widget-header">
+          <div>
+            <strong>Support Chat</strong>
+            <p>How can we help you today?</p>
+          </div>
+          <button type="button" class="chat-widget-close" id="chatWidgetClose" aria-label="Close chat">✕</button>
+        </div>
+        <div class="chat-widget-body" id="chatWidgetBody">
+          <div class="chat-message bot">Hi there! Ask me about services, pricing, or support.</div>
+        </div>
+        <form class="chat-widget-form" id="chatWidgetForm">
+          <input type="text" id="chatWidgetInput" placeholder="Type your message..." aria-label="Type your message" />
+          <button type="submit" class="chat-widget-send">Send</button>
+        </form>
+      </div>
+    </div>    
     <!--  App.js file -->
     <script src="./app.js"></script>
     <!--  Component : Footer -->

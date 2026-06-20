@@ -18,7 +18,7 @@ function showReview() {
         </a>
       </div>
       <div class="col-12 col-md-6 overflow-hidden b-6 position-relative">
-        <img class="img-fit-cover" src="./images/Videosection-Img.png" alt="Free review" />
+        <img class="img-fit-cover" src="./images/Freesecaudbnr.png" alt="Free review" />
       </div>
     </div>
     `;
