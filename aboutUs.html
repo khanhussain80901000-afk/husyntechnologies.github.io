@@ -4,7 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HusynTechnologies | About Us</title>
+    <title>About Us | Husyn Technologies</title>
+    <meta
+      name="description"
+      content="Meet Husyn Technologies: a web development, AI integration, and cybersecurity team led by CEO Muhammad Hussain and CTO Muhammad Imtiaz, helping businesses grow online."
+    />
+    <meta
+      name="keywords"
+      content="about Husyn Technologies, web development company, AI integration company, cybersecurity company, Muhammad Hussain, Muhammad Imtiaz"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Husyn Technologies" />
+    <link rel="canonical" href="https://husyntechnologies.com/aboutUs.html" />
+    <meta name="theme-color" content="#063255" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Husyn Technologies" />
+    <meta property="og:title" content="About Us | Husyn Technologies" />
+    <meta property="og:description" content="Meet the team behind Husyn Technologies and learn how we help businesses build secure, modern digital solutions." />
+    <meta property="og:url" content="https://husyntechnologies.com/aboutUs.html" />
+    <meta property="og:image" content="https://husyntechnologies.com/images/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About Us | Husyn Technologies" />
+    <meta name="twitter:description" content="Meet the team behind Husyn Technologies and learn how we help businesses build secure, modern digital solutions." />
+    <meta name="twitter:image" content="https://husyntechnologies.com/images/og-image.png" />
+
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./app.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -17,11 +55,31 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
     <script src="./components/Navbar.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Husyn Technologies",
+        "url": "https://husyntechnologies.com/aboutUs.html",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "Husyn Technologies",
+          "founder": [
+            { "@type": "Person", "name": "Muhammad Hussain", "jobTitle": "Chief Executive Officer" },
+            { "@type": "Person", "name": "Muhammad Imtiaz", "jobTitle": "Chief Technology Officer" }
+          ],
+          "address": { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" }
+        }
+      }
+    </script>
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="app">
       <!-- Navbar  -->
       <nav id="navbar" class="navbar navbar-expand-md navbar-light"></nav>
+      <main id="main-content">
       <!-- Header  -->
       <div class="container-fluid py-4 py-md-5 light-bg overflow-hidden">
         <div class="container">
@@ -29,10 +87,10 @@
             <div class="col-md-5 col-lg-6 py-3">
               <div>
                 <h1 class="cl-blue-900 mt-3">
-                  HusynTechnologies helps businesses build secure, scalable, and modern digital solutions.
+                  Husyn Technologies helps businesses build secure, scalable, and modern digital solutions.
                 </h1>
                 <p class="my-4">
-                  We specialize in web development, mobile applications, cybersecurity services, and IT consulting.
+                  We specialize in web development, AI integration for websites, and cybersecurity services for growing businesses.
                 </p>
               </div>
               <div class="mt-4">
@@ -45,57 +103,110 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-7 col-lg-6 position-relative">
+            <div class="col-md-7 col-lg-6 position-relative img-zoom">
               <div class="img-bar"></div>
               <img
                 src="./images/Circle.svg"
                 alt=""
                 class="overlay-img--circle p-br position-absolute"
+                loading="lazy"
               />
               <img
                 class="img-fit-cover b-6"
                 src="./images/hederImg-AbtUs.png"
-                alt=""
-                srcset=""
+                alt="Husyn Technologies team discussing a project plan"
+                width="616"
+                height="650"
+                fetchpriority="high"
               />
             </div>
           </div>
         </div>
       </div>
+      <!-- Leadership Section  -->
+      <section class="container-fluid py-5 light-bg reveal">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mb-5">
+              <span class="badge bg-brand-primayfaint rounded-pill py-2 px-3 mb-3">Our Leadership</span>
+              <h2 class="cl-blue-900">The people behind Husyn Technologies</h2>
+              <p class="mx-auto" style="max-width: 38rem;">
+                A focused team building secure, modern digital products for businesses around the world.
+              </p>
+            </div>
+          </div>
+          <div class="row g-4 justify-content-center reveal-stagger is-visible">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="leader-card">
+                <img src="./images/avatar-ceo.svg" alt="Portrait placeholder for Muhammad Hussain, CEO of Husyn Technologies" loading="lazy" />
+                <div class="leader-card-body">
+                  <p class="leader-name">Muhammad Hussain</p>
+                  <span class="leader-role">Chief Executive Officer</span>
+                  <p class="mt-2 mb-0">
+                    Leads the company's vision and client relationships, with a focus on secure, modern web experiences.
+                  </p>
+                  <div class="leader-socials">
+                    <a href="https://www.linkedin.com/company/husyn-technologies/" target="_blank" rel="noopener" aria-label="Muhammad Hussain on LinkedIn">
+                      <i class="bi bi-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:info@husyntechnologies.com" aria-label="Email Muhammad Hussain">
+                      <i class="bi bi-envelope" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="leader-card">
+                <img src="./images/avatar-cto.svg" alt="Portrait placeholder for Muhammad Imtiaz, CTO of Husyn Technologies" loading="lazy" />
+                <div class="leader-card-body">
+                  <p class="leader-name">Muhammad Imtiaz</p>
+                  <span class="leader-role">Chief Technology Officer</span>
+                  <p class="mt-2 mb-0">
+                    Oversees engineering, AI integration, and cybersecurity delivery across every client project.
+                  </p>
+                  <div class="leader-socials">
+                    <a href="https://www.linkedin.com/company/husyn-technologies/" target="_blank" rel="noopener" aria-label="Muhammad Imtiaz on LinkedIn">
+                      <i class="bi bi-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:info@husyntechnologies.com" aria-label="Email Muhammad Imtiaz">
+                      <i class="bi bi-envelope" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Feature section  -->
-      <section class="container-fluid my-5 py-5 light-bg">
+      <section class="container-fluid my-5 py-5 light-bg reveal">
         <div class="container">
           <div class="row gy-4">
             <div class="col-12 col-md-6">
               <h2>We build secure digital solutions that help businesses grow.</h2>
               <p>
-                From websites and apps to cybersecurity and IT consulting, our work is designed for growing teams and ambitious founders.
+                From websites and AI-powered tools to cybersecurity, our work is designed for growing teams and ambitious founders.
               </p>
             </div>
             <div class="col-12 col-md-6">
-              <div class="row row-cols-1 row-cols-sm-2 g-3">
+              <div class="row row-cols-1 row-cols-sm-3 g-3 reveal-stagger is-visible">
                 <div class="col">
-                  <div class="card border-0 b-6 p-4">
+                  <div class="card border-0 b-6 p-4 h-100">
                     <h5>Web Development</h5>
                     <p>Modern websites, e-commerce, and landing pages.</p>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card border-0 b-6 p-4">
-                    <h5>Mobile Apps</h5>
-                    <p>Android and iOS applications built for growth.</p>
+                  <div class="card border-0 b-6 p-4 h-100">
+                    <h5>AI Integration for Websites</h5>
+                    <p>Smart chatbots, automation, and personalization.</p>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card border-0 b-6 p-4">
+                  <div class="card border-0 b-6 p-4 h-100">
                     <h5>Cybersecurity</h5>
                     <p>Security audits, penetration testing, and assessments.</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-0 b-6 p-4">
-                    <h5>IT Support</h5>
-                    <p>Cloud, hosting, email, and ongoing maintenance.</p>
                   </div>
                 </div>
               </div>
@@ -104,7 +215,7 @@
         </div>
       </section>
       <!-- About section  -->
-      <section class="container-fluid light-bg pb-5 overflow-hidden">
+      <section class="container-fluid light-bg pb-5 overflow-hidden reveal">
         <div class="container">
           <div class="row row-cols-2 gx-5 align-items-center">
             <div class="col-12 col-md-6">
@@ -112,24 +223,24 @@
                 We want to get local identification in every corner of the world
                 in this era of global citizenship.
               </h2>
-              
             </div>
-            <div class="col-12 col-md-6 img-wrapper position-relative p-0">
+            <div class="col-12 col-md-6 img-wrapper position-relative p-0 img-zoom">
               <div class="p-4">
                 <div class="overlay-img--cubeLg position-absolute b-6"></div>
                 <img
                   class="img-fit-cover b-6"
                   src="./images/AboutUs-AbtSec.png"
-                  alt=""
+                  alt="Map graphic representing Husyn Technologies' global client base"
+                  loading="lazy"
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="container-fluid py-5 bg-bluefaint light-bg text-center">
+      <section class="container-fluid py-5 bg-bluefaint light-bg text-center reveal">
         <div class="container">
-          <h2>Need a website, mobile app, or cybersecurity assessment?</h2>
+          <h2>Need a website, AI integration, or cybersecurity assessment?</h2>
           <a href="./contact.html" class="btn bg-brand-primay text-white rounded-pill px-4 py-2 mt-4">
             Get a Free Consultation
           </a>
@@ -138,8 +249,9 @@
       <!-- Video Section  -->
       <section
         id="videoSection"
-        class="container-fluid py-5 my-md-3 my-lg-5"
+        class="container-fluid py-5 my-md-3 my-lg-5 reveal"
       ></section>
+      </main>
       <!-- Footer  -->
       <footer
         id="footer"
@@ -152,6 +264,28 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <div class="chat-widget" id="chatWidget">
+      <button class="chat-widget-toggle" id="chatWidgetToggle" aria-label="Open chat" aria-expanded="false" aria-controls="chatWidgetPanel">
+        <span class="chat-widget-icon" aria-hidden="true">💬</span>
+        <span class="chat-widget-label">Chat</span>
+      </button>
+      <div class="chat-widget-panel" id="chatWidgetPanel" aria-hidden="true">
+        <div class="chat-widget-header">
+          <div>
+            <strong>Support Chat</strong>
+            <p>How can we help you today?</p>
+          </div>
+          <button type="button" class="chat-widget-close" id="chatWidgetClose" aria-label="Close chat">✕</button>
+        </div>
+        <div class="chat-widget-body" id="chatWidgetBody">
+          <div class="chat-message bot">Hi there! 👋 Ask me about our services, pricing, contact info, or business hours.</div>
+        </div>
+        <form class="chat-widget-form" id="chatWidgetForm">
+          <input type="text" id="chatWidgetInput" placeholder="Type your message..." aria-label="Type your message" />
+          <button type="submit" class="chat-widget-send">Send</button>
+        </form>
+      </div>
+    </div>
     <!--  App.js file -->
     <script src="./app.js"></script>
     <!-- Component : video Section  -->

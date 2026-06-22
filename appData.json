@@ -27,18 +27,18 @@
     "description": "",
     "PostsObject": [
       {
-        "title": "Why you have to digitalize in 2021",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+        "title": "Why AI integration is the next step for your website",
+        "description": "Smart chatbots and automation can cut response times and boost conversions. Here's how AI integration helps growing businesses.",
         "imgURL": "./images/blogSection-img1.png"
       },
       {
-        "title": "Our internal process and longerm vision",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+        "title": "Our process for building secure, scalable websites",
+        "description": "From discovery to launch, here's how our team plans, builds, and ships websites that are fast, secure, and easy to maintain.",
         "imgURL": "./images/blogSection-img2.png"
       },
       {
-        "title": "Helping the next generation of leaders",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+        "title": "A simple cybersecurity checklist for small businesses",
+        "description": "Practical, no-jargon steps any business can take to reduce common security risks on their website and systems.",
         "imgURL": "./images/blogSection-img3.png"
       }
     ]

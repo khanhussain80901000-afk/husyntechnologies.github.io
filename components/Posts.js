@@ -55,18 +55,21 @@ function showPostSection(data) {
       const PostEl = document.createElement("div");
       PostEl.classList.add("col");
       PostEl.innerHTML = `
-      <div class="card h-100 border-0 bg-transparent">
+      <div class="card h-100 border-0 bg-transparent card-hover">
+      <div class="img-zoom b-6 overflow-hidden">
       <img
         src="${imgURL}"
         class="card-img-top b-6"
         alt="${title}"
+        loading="lazy"
       />
+      </div>
       <div class="card-body px-0 py-4">
         <h5 class="card-title cl-primary-800">${title}</h5>
         <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
-        <a href="./BlogInner.html" class="">Card link <i class="bi bi-arrow-right"></i></a>
+        <a href="./BlogInner.html" class="">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
           `;
