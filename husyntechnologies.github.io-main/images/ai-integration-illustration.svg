@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="aiIntTitle aiIntDesc">
+  <title id="aiIntTitle">AI Integration for Websites</title>
+  <desc id="aiIntDesc">Illustration of a website browser window with an AI chat assistant, neural network nodes, and a sparkle icon representing AI-powered features.</desc>
+  <defs>
+    <linearGradient id="aiBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2a44"/>
+      <stop offset="100%" stop-color="#0a1c2e"/>
+    </linearGradient>
+    <linearGradient id="aiAccentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#42789E"/>
+      <stop offset="100%" stop-color="#8CB3CF"/>
+    </linearGradient>
+    <linearGradient id="aiOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f58a07"/>
+      <stop offset="100%" stop-color="#f8b94d"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="560" rx="28" fill="url(#aiBgGrad)"/>
+
+  <!-- subtle neural network lines -->
+  <g stroke="#3a6c8f" stroke-width="1.5" opacity="0.45">
+    <line x1="60" y1="460" x2="150" y2="400"/>
+    <line x1="150" y1="400" x2="120" y2="320"/>
+    <line x1="150" y1="400" x2="230" y2="430"/>
+    <line x1="500" y1="120" x2="560" y2="180"/>
+    <line x1="560" y1="180" x2="520" y2="250"/>
+    <line x1="500" y1="120" x2="440" y2="90"/>
+  </g>
+  <g fill="#8CB3CF" opacity="0.55">
+    <circle cx="60" cy="460" r="5"/>
+    <circle cx="150" cy="400" r="6"/>
+    <circle cx="120" cy="320" r="4"/>
+    <circle cx="230" cy="430" r="4"/>
+    <circle cx="500" cy="120" r="5"/>
+    <circle cx="560" cy="180" r="6"/>
+    <circle cx="520" cy="250" r="4"/>
+    <circle cx="440" cy="90" r="4"/>
+  </g>
+
+  <!-- browser window -->
+  <rect x="90" y="120" width="380" height="280" rx="16" fill="#0f2238" stroke="#27496b" stroke-width="2"/>
+  <rect x="90" y="120" width="380" height="40" rx="16" fill="#142c46"/>
+  <circle cx="115" cy="140" r="6" fill="#f58a07"/>
+  <circle cx="136" cy="140" r="6" fill="#8CB3CF"/>
+  <circle cx="157" cy="140" r="6" fill="#42789E"/>
+
+  <!-- website content placeholders -->
+  <rect x="116" y="182" width="180" height="14" rx="7" fill="#3a6c8f"/>
+  <rect x="116" y="208" width="240" height="10" rx="5" fill="#274a66"/>
+  <rect x="116" y="226" width="200" height="10" rx="5" fill="#274a66"/>
+  <rect x="116" y="260" width="100" height="34" rx="17" fill="url(#aiOrangeGrad)"/>
+
+  <!-- AI assistant card overlapping the browser, bottom right -->
+  <rect x="330" y="240" width="200" height="150" rx="18" fill="#ffffff"/>
+  <circle cx="362" cy="276" r="16" fill="url(#aiAccentGrad)"/>
+  <path d="M356 276l4 4 8-9" stroke="#ffffff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="388" y="268" width="120" height="10" rx="5" fill="#0d2a44"/>
+  <rect x="388" y="284" width="90" height="8" rx="4" fill="#7c8a98"/>
+
+  <rect x="350" y="306" width="160" height="34" rx="17" fill="#eef4fa"/>
+  <text x="368" y="328" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#42789E">How can I help?</text>
+
+  <rect x="350" y="350" width="80" height="26" rx="13" fill="url(#aiOrangeGrad)"/>
+  <text x="364" y="367" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Ask AI</text>
+
+  <!-- sparkle / AI spark icon top right -->
+  <g transform="translate(536,150)" fill="url(#aiOrangeGrad)">
+    <path d="M18 0 L23 13 L36 18 L23 23 L18 36 L13 23 L0 18 L13 13 Z"/>
+  </g>
+  <g transform="translate(70,90)" fill="#8CB3CF" opacity="0.8">
+    <path d="M9 0 L12 6.5 L18 9 L12 11.5 L9 18 L6 11.5 L0 9 L6 6.5 Z"/>
+  </g>
+
+  <!-- floating automation gear-ish ring (kept simple/abstract) -->
+  <circle cx="120" cy="470" r="34" fill="none" stroke="url(#aiAccentGrad)" stroke-width="4" opacity="0.5"/>
+  <circle cx="120" cy="470" r="10" fill="url(#aiAccentGrad)" opacity="0.8"/>
+</svg>
