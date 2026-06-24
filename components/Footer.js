@@ -19,11 +19,32 @@ function Footer() {
     Web Development, AI Integration & Cybersecurity solutions for growing businesses worldwide.
   </p>
   <div class="brand-socials my-3 mt-4">
-    <a href="#" class="mx-1" aria-label="Husyn Technologies on Facebook"> <i class="bi bi-facebook" aria-hidden="true"></i></a>
-    <a href="#" class="mx-1" aria-label="Husyn Technologies on YouTube"> <i class="bi bi-youtube" aria-hidden="true"></i></a>
-    <a href="#" class="mx-1" aria-label="Husyn Technologies on Instagram"> <i class="bi bi-instagram" aria-hidden="true"></i></a>
-    <a href="https://www.linkedin.com/company/husyn-technologies/" target="_blank" rel="noopener" class="mx-1" aria-label="Husyn Technologies on LinkedIn"> <i class="bi bi-linkedin" aria-hidden="true"></i></a>
-    <a href="#" class="mx-1" aria-label="Husyn Technologies on Twitter / X"> <i class="bi bi-twitter" aria-hidden="true"></i></a>
+  
+
+    <a href="https://www.facebook.com/people/Husyn-Technologies/61590893536047/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mx-1"
+      aria-label="Husyn Technologies on Facebook">
+      <i class="bi bi-facebook" aria-hidden="true"></i>
+    </a>
+
+    <a href="https://www.instagram.com/husyntechnologies/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mx-1"
+      aria-label="Husyn Technologies on Instagram">
+      <i class="bi bi-instagram" aria-hidden="true"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/company/husyn-technologies/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mx-1"
+      aria-label="Husyn Technologies on LinkedIn">
+      <i class="bi bi-linkedin" aria-hidden="true"></i>
+    </a>
+
   </div>
 </div>
 <div class="col-12 col-md-7 col-lg-7">
